@@ -3,7 +3,7 @@
 return array(
     'filter_title' => array(
         'blacklist' => 'Blacklist',
-        'keywords_desc' => 'One rule per line. Plain text is case-sensitive. For case-insensitive matches, use a regular expression such as /Promo Codes?/i. Rules beginning with / are checked before saving.',
+        'keywords_desc' => 'One rule per line. Plain text is case-sensitive. Use /Promo Codes?/i for a case-insensitive match.',
         'invalid_pattern' => '%s, line %d: invalid regular expression. Check the delimiters and modifiers. Your settings have not been saved.',
         'mark_as_read' => 'Mark as read',
         'mark_as_read_hint' => 'If this checkbox is checked, the unauthorized entries will still be entered into the database but will be marked as read',
